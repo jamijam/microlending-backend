@@ -2,17 +2,27 @@
 
 This backend is required for Encryption and Decryption functionalities in `Trusting Social - Credit Insight` API integration.
 
-## 1. Setting up the backend server
+## Setting up the backend server
+
+1.  Download the code into IDE instance
+
+        git clone https://github.com/apixplatform/microlending-backend.git
+
+2.  Backend code is downloaded to IDE instance to the folder `microlending-backend`. Let's change the terminal directory to `microlending-backend` folder.
+
+        cd account-opening/
+
+3. Start the backend server
 
         sh deploy.sh
 
-## 2. Pointing frontend use cases to the backend server
+## Pointing frontend use cases to the backend server
 
-2.1. Copy the Backend IDE instance URL from the browser tab. (ex: `https://ide-xxxxxx.services.apixplatform.com`)
+1. Copy the Backend IDE instance URL from the browser tab. (ex: `https://ide-xxxxxx.services.apixplatform.com`)
 
-2.2. Change the `ide` text to `app` in the URL and open. New URL would look like (ex: `https://app-xxxxxx.services.apixplatform.com`)
+2. Change the `ide` text to `app` in the URL and open. New URL would look like (ex: `https://app-xxxxxx.services.apixplatform.com`)
 
-2.3. Update `api-config.json` in frontend code with the backend app URL.
+3. Update `api-config.json` in frontend code with the backend app URL.
 
         "encDecUtil" : {
                 "url": {
