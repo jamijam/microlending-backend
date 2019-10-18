@@ -10,7 +10,7 @@ This backend is required for Encryption and Decryption functionalities in `Trust
 
 2.  Backend code is downloaded to IDE instance to the folder `microlending-backend`. Let's change the terminal directory to `microlending-backend` folder.
 
-        cd account-opening/
+        cd microlending-backend/
 
 3. Start the backend server
 
